@@ -84,4 +84,4 @@
   
   Now check wether deployment done in cluster or not:
   
-    ![image](https://user-images.githubusercontent.com/58024415/101141446-52cb7280-363a-11eb-953f-d23ac95903b0.png)
+  ![image](https://user-images.githubusercontent.com/58024415/101141446-52cb7280-363a-11eb-953f-d23ac95903b0.png)

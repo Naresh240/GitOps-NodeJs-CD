@@ -64,8 +64,10 @@
   
   ![image](https://user-images.githubusercontent.com/58024415/101141082-cb7dff00-3639-11eb-9d15-f6a1ea351391.png)
     
-  Giving write access:
-    At startup Flux generates a SSH key and logs the public key. Find the SSH public key by installing fluxctl and running:
+  Authorise Flux CD to Connect to Your Git Repository  
+  We now need to allow the Flux CD operator to interact with the Git repository, and therefore, we need to add its public SSH key to the repo.
+  
+  Get the public SSH key using fluxctl:
     
     fluxctl identity --k8s-fwd-ns nodejsdeploy
     

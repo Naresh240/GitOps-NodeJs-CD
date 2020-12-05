@@ -23,10 +23,11 @@
 # EKS Cluster Setup:
   [EKS Cluster Setup](https://github.com/Naresh240/eks-cluster-setup/blob/main/README.md)
 # Install fluxctl:
-    wget https://github.com/fluxcd/flux/releases/download/1.21.0/fluxctl_linux_arm64
-    mv fluxctl_linux_arm64 fluxctl
+    wget https://github.com/fluxcd/flux/releases/download/1.21.0/fluxctl_linux_amd64
+    mv fluxctl_linux_amd64 fluxctl
     chmod +x fluxctl
-    mv fluxctl /usr/bin
+    mv fluxctl /usr/bin/
+    fluxctl version
 # Install FluxCD or Flux Operator:
   Create the flux namespace:
     

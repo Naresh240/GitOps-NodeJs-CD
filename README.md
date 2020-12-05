@@ -64,7 +64,8 @@
   
   ![image](https://user-images.githubusercontent.com/58024415/101141082-cb7dff00-3639-11eb-9d15-f6a1ea351391.png)
     
-  Authorise Flux CD to Connect to Your Git Repository  
+  Authorise Flux CD to Connect to Your Git Repository:
+  
   We now need to allow the Flux CD operator to interact with the Git repository, and therefore, we need to add its public SSH key to the repo.
   
   Get the public SSH key using fluxctl:

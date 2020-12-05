@@ -60,12 +60,14 @@
   
   check flux deployment:
   
+    kubectl get deploy -n nodejsdeploy
+  
   ![image](https://user-images.githubusercontent.com/58024415/101141082-cb7dff00-3639-11eb-9d15-f6a1ea351391.png)
     
   Giving write access:
     At startup Flux generates a SSH key and logs the public key. Find the SSH public key by installing fluxctl and running:
     
-    fluxctl identity --k8s-fwd-ns flux
+    fluxctl identity --k8s-fwd-ns nodejsdeploy
     
   In order to sync your cluster state with git you need to copy the public key and create a deploy key with write access on your GitHub repository.
   Open GitHub Repo --> settings --> Deploy Keys

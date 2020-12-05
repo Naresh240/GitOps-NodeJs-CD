@@ -58,7 +58,7 @@
     
     kubectl -n flux rollout status deployment/flux
   
-  check flux deployment:
+  Check if Flux deployment is successful or not:
   
     kubectl get deploy -n nodejsdeploy
   
